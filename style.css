@@ -10,8 +10,9 @@
     margin-bottom: 10px;
     text-align: center;
     margin: 10px;
-    width: 150px;
-    height: 270px;
+    width: 200px;
+    height: 320px;
+    padding: 10px;
 }
 
 .pid {
