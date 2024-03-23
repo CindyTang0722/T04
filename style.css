@@ -1,0 +1,30 @@
+#pokemons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.pid {
+    font-weight: bold;
+    text-align: center;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+}
+
+.type {
+    text-transform: capitalize;
+    font-size: 14px;
+    text-align: center;
+}
