@@ -15,7 +15,7 @@ async function fetchPokemon(url) {
 
     const pidElement = document.createElement("p");
     pidElement.className = "pid";
-    pidElement.appendChild(document.createTextNode("#" + pad(data.id, 3)));
+    pidElement.appendChild(document.createTextNode(pad(data.id, 3)));
     pokemonDiv.appendChild(pidElement);
 
     const imgElement = document.createElement("img");
